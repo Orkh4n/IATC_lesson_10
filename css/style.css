@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 1000px;
+    height: 680px;
+    /* margin: 0 auto; */
+    background: skyblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    
+}
+.sector{
+    width: 250px;
+    height: 680px;
+    position: relative;
+    
+    
+}
+.sector1{
+    background: #DFE1EE;
+}
+.sector2{
+    background: #ABB2E6;
+}
+.sector3{
+    background: #7585DD;
+}
+.sector4{
+    background: #3F53D8;
+}
+.cub_1{
+    width: 90px;
+    height: 90px;
+    background: #FFF9B1;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.cub_2{
+    width: 100px;
+    height: 100px;
+    background: #F5F6F8;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+
+}
+.cub_3{
+    width: 80px;
+    height: 80px;
+    background: #FFFAB0;
+    position:absolute;
+    bottom: 100px;
+    left: 50px;
+}
+.cub_4{
+    width: 100px;
+    height: 100px;
+    background: #F2F5F8;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    z-index: 1;
+}
+.cub_5{
+    width: 170px;
+    height: 170px;
+    background:#FEFABD ;
+    position: absolute;
+    top:190px ;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cub_5 h2{
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+}
+.cub_6 {
+    width: 200px;
+    height: 200px;
+    background: #F4F5F9;
+    position: absolute;
+    bottom: 130px;
+    left: 25px;
+    
+    
+}
+.cub_6 p{
+    text-align: center;
+    line-height: 36px;
+    font-size: 24px;
+}
+.cub_7{
+    width: 80px;
+    height: 80px;
+    background: #F3F4F8;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+.cub_8{
+    width: 110px;
+    height: 110px;
+    background: #FCF7B6;
+    position: absolute;
+    bottom: 220px;
+    right: 30px;
+    z-index: 2;
+}
+.cub_9{
+    width: 110px;
+    height: 110px;
+    background: #F3F4F8;
+    position: absolute;
+    bottom: 140px;
+    left: 30px;
+   
+}
+
+.shadow{
+    box-shadow: -8px 18px 25px -8px rgba(1,1,1,0.5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.color_white{
+    color: #fff;
+}
